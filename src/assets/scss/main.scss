@@ -1,0 +1,124 @@
+@import 'reset.scss';
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+.wrapper {
+    background-color: rgba(203, 206, 209, 0.631);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    // .form__location
+    &__location {
+        padding: 10px;
+        border-radius: 5px;
+    }
+    //.form__btn
+    &__btn {
+        padding: 10px;
+        background-color: rgb(93, 93, 70);
+        border-radius: 5px;
+        color: #fff;
+    }
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgb(103, 150, 174);
+    // .weather__title
+    &__title {
+        font-size: 20px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    // .weather__input
+    &__input {
+        margin: 30px 0;
+    }
+    // .weather__output
+    &__output {
+        width: 500px;
+        height: 350px;
+    }
+    // .weather__content
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    // .weather__today
+    &__today {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 500px;
+        height: 200px;
+        background-color: rgb(171, 204, 221);
+        border-radius: 5px;
+    }
+    // .weather__location
+    &__location {
+        font-size: 30px;
+    }
+    // .weather__rows
+    &__rows {
+        display: flex;
+        justify-content: center;
+    }
+    // .weather__item
+    &__item {
+        height: 160px;
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1 0 150px;
+    }
+    // .weather__conditions
+    &__conditions {
+    }
+    // .weather__day
+    &__day {
+    }
+    // .weather__time
+    &__time {
+    }
+    // .weather__wind
+    &__wind {
+    }
+    // .weather__icon
+    &__icon {
+    }
+    // .weather__description
+    &__description {
+    }
+    // .weather__temperature
+    &__temperature {
+    }
+    // .weather__future
+    &__future {
+        background-color: rgb(171, 204, 221);
+        border-radius: 5px;
+    }
+}
