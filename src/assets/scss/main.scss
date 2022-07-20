@@ -58,8 +58,6 @@ body {
     }
     // .weather__output
     &__output {
-        width: 500px;
-        height: 350px;
     }
     // .weather__content
     &__content {
@@ -73,13 +71,15 @@ body {
         flex-direction: column;
         align-items: center;
         width: 500px;
-        height: 200px;
         background-color: rgb(171, 204, 221);
-        border-radius: 5px;
+        border-radius: 10px;
+        padding: 10px;
     }
     // .weather__location
     &__location {
         font-size: 30px;
+        padding: 15px;
+        text-transform: uppercase;
     }
     // .weather__rows
     &__rows {
@@ -88,18 +88,18 @@ body {
     }
     // .weather__item
     &__item {
-        height: 160px;
-        border: 1px solid red;
         display: flex;
         flex-direction: column;
         align-items: center;
-        flex: 1 0 150px;
+        flex: 1 0 160px;
     }
     // .weather__conditions
     &__conditions {
     }
     // .weather__day
     &__day {
+        font-size: 24px;
+        text-transform: uppercase;
     }
     // .weather__time
     &__time {
@@ -107,14 +107,29 @@ body {
     // .weather__wind
     &__wind {
     }
+    //.weather__img
+    &__img {
+        margin: 0 0 10px 0;
+    }
+
     // .weather__icon
     &__icon {
+        overflow: hidden;
+        width: 140px;
+        height: 100%;
+        border-radius: 10px;
     }
+
     // .weather__description
     &__description {
+        font-size: 18px;
+        text-transform: uppercase;
+        text-align: center;
     }
     // .weather__temperature
     &__temperature {
+        font-size: 90px;
+        font-weight: 700;
     }
     // .weather__future
     &__future {
